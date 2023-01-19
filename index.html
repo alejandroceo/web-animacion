@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Animacion</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "source sans pro", sans-serif;
+        overflow: hidden;
+
+
+    }
+
+    .main {
+        background-color: #000;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .anim1 {
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        animation: animate1 10s alternate infinite;
+        background-color: #03bcf4;
+        border-radius: 50%;
+        box-shadow: 0 0 5px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4;
+    }
+
+
+
+
+    .anim3 {
+        position: absolute;
+        bottom: -90px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate3 8s alternate infinite;
+        background-color: rgba(255, 214, 0, 1);
+        box-shadow: 0 0 5px rgba(255, 214, 0, 1), 0 0 20px rgba(255, 214, 0, 1), 0 0 40px rgba(255, 214, 0, 1), 0 0 80px rgba(255, 214, 0, 1)
+    }
+
+    .anim4 {
+        position: absolute;
+        bottom: -50px;
+        right: -40%;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate4 20s alternate infinite;
+        background-color: #9339cf;
+        box-shadow: 0 0 5px #9339cf, 0 0 20px #9339cf, 0 0 40px #9339cf, 0 0 80px #9339cf;
+    }
+
+    .anim5 {
+        position: absolute;
+        left: -90px;
+        top: 215px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate5 12s alternate infinite;
+        background-color: rgb(255, 0, 170);
+        box-shadow: 0 0 5px rgb(255, 0, 170), 0 0 20px rgb(255, 0, 170), 0 0 40px rgb(255, 0, 170), 0 0 80px rgb(255, 0, 170);
+    }
+
+    .anim6 {
+        position: absolute;
+        left: -90px;
+        top: 215px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate6 12s alternate infinite;
+        background-color: rgb(65, 0, 243);
+        box-shadow: 0 0 5px rgb(65, 0, 243), 0 0 20px rgb(65, 0, 243), 0 0 40px rgb(65, 0, 243), 0 0 80px rgb(65, 0, 243);
+    }
+
+    .anim7 {
+        position: absolute;
+        left: -90px;
+        top: 215px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate7 12s alternate infinite;
+        background-color: rgb(255, 0, 0);
+        box-shadow: 0 0 5px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0), 0 0 80px rgb(255, 0, 0);
+    }
+
+    .anim8 {
+        position: absolute;
+        left: -90px;
+        top: 215px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate8 12s alternate infinite;
+        background-color: rgb(251, 255, 0);
+        box-shadow: 0 0 5px rgb(251, 255, 0), 0 0 20px rgb(251, 255, 0), 0 0 40px rgb(251, 255, 0), 0 0 80px rgb(251, 255, 0);
+    }
+
+
+    .anim9 {
+        position: absolute;
+        left: -90px;
+        top: 215px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate9 12s alternate infinite;
+        background-color: rgb(251, 255, 0);
+        box-shadow: 0 0 5px rgb(251, 255, 0), 0 0 20px rgb(251, 255, 0), 0 0 40px rgb(251, 255, 0), 0 0 80px rgb(251, 255, 0);
+    }
+
+    .anim10 {
+        position: absolute;
+        left: -90px;
+        top: 215px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: animate10 12s alternate infinite;
+        background-color: rgb(251, 255, 0);
+        box-shadow: 0 0 5px rgb(251, 255, 0), 0 0 20px rgb(251, 255, 0), 0 0 40px rgb(251, 255, 0), 0 0 80px rgb(251, 255, 0);
+    }
+
+
+
+    @keyframes animate1 {
+        20% {
+            margin-top: 100px;
+        }
+
+        50% {
+            margin: 600px;
+        }
+
+        80% {
+            margin-left: 150px;
+        }
+
+        100% {
+            margin: 500px;
+        }
+    }
+
+    @keyframes animate2 {
+        20% {
+            margin: 500px;
+        }
+
+        50% {
+            margin-bottom: 150px;
+        }
+
+        80% {
+            margin-left: 300px;
+        }
+
+        100% {
+            margin-right: 1500px;
+        }
+    }
+
+    @keyframes animate3 {
+        20% {
+            margin: 500px;
+        }
+
+        50% {
+            margin-bottom: 150px;
+        }
+
+        80% {
+            margin-left: 300px;
+        }
+
+        100% {
+            margin-right: 1500px;
+        }
+    }
+
+    @keyframes animate4 {
+        20% {
+            margin: 700px;
+        }
+
+        50% {
+            margin-right: 300px;
+        }
+
+        80% {
+            margin-top: 250px;
+        }
+
+        100% {
+    
+            margin: 800px;
+        }
+    }
+
+    @keyframes animate5 {
+        20% {
+            margin: 500px;
+        }
+
+        50% {
+            margin-right: 300px;
+        }
+
+        80% {
+            margin-top: 250px;
+        }
+
+        100% {
+            margin: 800px;
+        }
+    }
+
+    @keyframes animate6 {
+        20% {
+            margin: 500px;
+        }
+
+        50% {
+            margin-top: 250px;
+        }
+
+        80% {
+            margin-left: 300px;
+        }
+
+        100% {
+            margin-right: 300px;
+        }
+    }
+
+    @keyframes animate7 {
+        20% {
+            margin-left:  800px;
+        }
+
+        50% {
+            margin-right: 500px;
+        }
+
+        80% {
+            margin-top: 450px;
+        }
+
+        100% {
+            margin: 800px;
+        }
+    }
+
+    @keyframes animate8 {
+        20% {
+            margin-right: 500px;
+        }
+
+        50% {
+            margin-top: 200px;
+
+        }
+    }
+
+    @keyframes animate9 {
+        20% {
+            margin-right: 500px;
+        }
+
+        50% {
+            margin-top: 500px;
+        }
+
+        100% {
+            margin-left: 500px;
+        }
+
+    }
+
+
+    @keyframes animate10 {
+        40% {
+            margin-top: 500px;
+        }
+
+        50% {
+            margin-right: 500px;
+        }
+    }
+
+
+    .nav h1 {
+        float: left;
+        font-size: 35px;
+        transform: rotate(-5deg);
+        color: white;
+        cursor: pointer;
+        max-width: 20px 0 0 50px;
+
+    }
+
+    .contant img{
+        width: 450;
+    }
+
+    .contant{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 85vh;
+    }
+
+    .contant h2{
+        font-size: 35px;
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="anim1"></div>
+        <div class="anim2"></div>
+        <div class="anim3"></div>
+        <div class="anim4"></div>
+        <div class="anim5"></div>
+        <div class="anim6"></div>
+        <div class="anim7"></div>
+        <div class="anim8"></div>
+        <div class="anim9"></div>
+        <div class="anim10"></div>
+
+
+        <div class="nav">
+            <h1>@Alejandroceo</h1>
+
+            <div class="contant">
+                <div>
+                    <h2>Sigueme en @Alejandroceo</h2>
+                    
+                </div>
+
+                <img src="cats.png" alt="Imagen-Foto">
+
+</body>
+
+</html>
